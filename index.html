@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="welcome to gdsc WebTech!">
+    <link rel="icon" type="image/png" href="images/favicon.jpg"/>
+    <meta property="og:image" content="images/cover-image.png"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/793cee9fd7.js" crossorigin="anonymous"></script>
+    <title>WebTech</title>
+</head>
+
+<body  >
+
+    <nav>
+        <div class="nav_left">
+            <p>Web Tech</p>
+            <ul>
+                <li tooltip="notification"><img src="images/notification.png" alt=""></li>
+                <li tooltip="inbox"><img src="images/inbox.png" alt=""></li>
+                <li tooltip="watch"><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav_right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="showNavMenu()">
+                <img src="images/departements 1X1/GDSC.jpg" alt="">
+            </div>
+        </div>
+            <!-- nav-menu=========================== -->
+        <div class="nav-menu">
+            <div id="theme-switch" >
+                <span></span>
+            </div>
+            <div class="user-profile">
+                <img src="images/departements 1X1/GDSC.jpg" alt="">
+                <div>
+                    <p>GDSC</p>
+                    <a href="#">See your profile</a>
+                </div>
+            </div>
+            <div class="menu-items">
+                <i class="fa-solid fa-gear"></i>
+                <div>
+                    <p>Setting & privacy</p>
+                </div>
+            </div>
+            <div class="menu-items">
+                <i class="fa-solid fa-circle-info"></i>
+                <div>
+                    <p>Help & support</p>
+                </div>
+            </div>
+            <div class="menu-items">
+                <i class="fa-solid fa-comment"></i>
+                <div>
+                    <p>Give Feedback</p>
+                </div>
+            </div>
+            <div class="menu-items">
+                <i class="fa-sharp fa-solid fa-arrow-right-from-bracket"></i>
+                <div>
+                    <p>Log Out</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container" onclick="hideNavMenu()">
+        <!-- left-side===================== -->
+        <div class="left-side-bar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png" alt="">Latest News</a>
+                <a href="#"><img src="images/friends.png" alt="">Friends</a>
+                <a href="#"><img src="images/group.png" alt="">Group</a>
+                <a href="#"><img src="images/marketplace.png" alt="">Marketplace</a>
+                <a href="#"><img src="images/watch.png" alt="">watch</a>
+                <a href="#">See More</a>
+
+            </div>
+            <div class="shortcut_links">
+                <p>Your shortcut</p>
+                <a href="#"><img src="images/departements 1x1/web-developement.png" alt="">Web Developement</a>
+                <a href="#"><img src="images/departements 1x1/android-development .png" alt="">Android Development</a>
+                <a href="#"><img src="images/departements 1x1/machin-learning.png" alt="">Machine Learning</a>
+                <a href="#"><img src="images/departements 1x1/google-cloud.png" alt="">cloud engineer</a>
+                <a href="#"><img src="images/departements 1x1/cross-platform.png" alt="">cross platform</a>
+                <a href="#"><img src="images/departements 1x1/ux-design.png" alt="">ux design</a>
+                <a href="#"><img src="images/departements 1x1/graphic-design.png" alt="">graphic design</a>
+                <a href="#"><img src="images/departements 1x1/human-resources.png" alt="">human resources</a>
+                <a href="#"><img src="images/departements 1x1/external-relationship.png" alt="">external
+                    relationship</a>
+                <a href="#"><img src="images/departements 1x1/finance-logistics.png" alt="">finance logistics</a>
+
+            </div>
+        </div>
+        <!-- main-content===================== -->
+        <div class="main-content">
+            <div class="story-bar">
+                <div class="story" id="story-1">
+                    <img src="images/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story" id="story-2">
+                    <img src="images/departements 1x1/web-developement.png" alt="">
+                    <p>Web Developement</p>
+                </div>
+                <div class="story" id="story-3">
+                    <img src="images/departements 1x1/android-development .png" alt="">
+                    <p>Android Development</p>
+                </div>
+                <div class="story" id="story-4">
+                    <img src="images/departements 1X1/machin-learning.png" alt="">
+                    <p>Machin Learning</p>
+                </div>
+                <div class="story" id="story-5">
+                    <img src="images/departements 1X1/cross-platform.png" alt="">
+                    <p>Cross Platform</p>
+                </div>
+                <div></div>
+            </div>
+
+            <div class="add-post-container">
+                <div class="user-profile">
+                    <img src="images/departements 1X1/GDSC.jpg" alt="">
+                    <div>
+                        <p>GDSC</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="what in your mind, GDSC"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><i class="fa-solid fa-video" style="color:rgb(231, 3, 3)"></i> Live Video</a>
+                        <a href="#"><i class="fa-solid fa-camera" style="color:rgb(0, 175, 38)"></i> Photo/Video</a>
+                        <a href="#"><i class="fa-regular fa-face-smile" style="color:rgb(255, 174, 0)"></i>
+                            Feeling/Avtivity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/departements 1X1/GDSC.jpg" alt="">
+                        <div>
+                            <p>GDSC</p>
+                            <span>March 22 2022, 11:00 am <i class="fa-solid fa-caret-down"></i></span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis" style="color:#9a9a9a "></i></a>
+                </div>
+                <p class="post-text"><span>gdscenst</span> what? <span>WebTech</span> another time? yes yes! didn't
+                    finish yet &#128525;&#128293; its sequel is very close &#128293;. Don't hesitate to check our
+                    website and get your ticket to be part of us this Saturday &#10024;Link in bio. <br> <a
+                        href="https://www.google.com/">#google</a> <a href="https://gdsc.community.dev/ecole-nationale-superieure-de-technologie-bordj-el-kiffan/">#gdsc</a></p>
+                <img src="images/post-1.jpg" alt="" class="post-img">
+                <div class="post-row">
+                    <div class="reactions-icons">
+                        <div><i class="fa-solid fa-thumbs-up" style="color: #1876f2"></i> 231</div>
+                        <div><i class="fa-solid fa-comments"></i> 96</div>
+                        <div><i class="fa-solid fa-share"></i> 52</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/departements 1X1/GDSC.jpg" alt="">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/departements 1X1/GDSC.jpg" alt="">
+                        <div>
+                            <p>GDSC</p>
+                            <span>March 27 2022, 11:00 am <i class="fa-solid fa-caret-down"></i></span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis" style="color:#9a9a9a "></i></a>
+                </div>
+                <p class="post-text"><span>gdscenst</span>Dear Community 📢
+                    We finally got there , We share with you the Agenda of our long-awaited WebTech event which will
+                    take place tomorrow Saturday,19th November at the Higher National School of Technology ENST ✨🔥🔥
+                    See you there 😍<br>
+                     <a href="https://www.google.com/">#google</a> <a href="https://gdsc.community.dev/ecole-nationale-superieure-de-technologie-bordj-el-kiffan/">#gdsc</a></p>
+                <img src="images/post-2.jpg" alt="" class="post-img">
+                <div class="post-row">
+                    <div class="reactions-icons">
+                        <div><i class="fa-solid fa-thumbs-up" style="color: #1876f2"></i> 202</div>
+                        <div><i class="fa-solid fa-comments"></i> 95</div>
+                        <div><i class="fa-solid fa-share"></i> 45</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/departements 1X1/GDSC.jpg" alt="">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <button type="button">Show More</button>
+
+        </div>
+        <!-- right-side===================== -->
+        <div class="right-side-bar">
+
+            <div class="sidebar-title">
+                <h4>
+                    Events
+                </h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>19</h3>
+                    <span>November</span>
+                </div>
+                <div class="right-event">
+                    <h4>WebTECH</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> ENST - Bordj El Kiffan</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>03</h3>
+                    <span>November</span>
+                </div>
+                <div class="right-event">
+                    <h4>GitHub</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> ENST - Bordj El Kiffan</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>
+                    Advertisement
+                </h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/cover-image.png" alt="" class="sidebar_ads">
+            <div class="sidebar-title">
+                <h4>
+                    Conversation
+                </h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/featured_attendees/meandbanana.jpg" alt="">
+                </div>
+                <p>Yasser Cherfaoui</p>
+            </div>
+            <div class="online-list">
+                <div class="">
+                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/khaled_gasmi_QCeYa0f.jpg" alt="">
+                </div>
+                <p>Khaled Gasmi</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/lylia_benbelgacem.jfif" alt="">
+                </div>
+                <p>Lylia Benbelgacem</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/asma_benhamza_fBeAlBs.jpg" alt="">
+                </div>
+                <p>Asma BENHAMZA</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/hocine_abdoun_gzFxd5O.jpg" alt="">
+                </div>
+                <p>Hocine Abdoun</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/raouf_bouchareb.JPG" alt="">
+                </div>
+                <p>Abderraouf Bouchareb</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/abdi_aya_alia.jpg" alt="">
+                </div>
+                <p>Aya Abdi</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/mounsif_cherfaoui.jpg" alt="">
+                </div>
+                <p>Mounsif Cherfaoui</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/yacine_belouz.jpg" alt="">
+                </div>
+                <p>Yacine BELOUZ</p>
+            </div>
+            <div class="online-list">
+                <div>
+                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/toufik_iddou.jpg" alt="">
+                </div>
+                <p>toufik iddou</p>
+            </div>
+            <div class="online-list">
+                <div >
+                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/boukadoum_ramy_MyGpS2N.jpg" alt="">
+                </div>
+                <p>Ramy Boukadoum</p>
+            </div>
+            <div class="online-list">
+                <div >
+                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/khoualdia_nacib.jpg" alt="">
+                </div>
+                <p>KHOUALDIA Nacib</p>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright 2021 - GDSC WebTech&#xA9;</p>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+
+</html>
